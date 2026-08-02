@@ -1,0 +1,31 @@
+# 모델 가중치 — 총 1.4GB, 개별 파일이 GitHub 100MB 제한 초과
+# README 의 "재현" 절차로 생성하거나 Release 에서 받을 것
+checkpoints/
+*.onnx
+*.pt
+*.pth
+
+# 데이터셋 / 중간 산출물
+datasets/
+runs*/
+explore/
+*.mp4
+vdump*.json
+features*.json
+labels.jsonl
+
+# 결과
+result*.json
+test*.json
+submission*.zip
+build_submit/
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv*/
+*.egg-info/
+
+# 기타
+.DS_Store
+*.log

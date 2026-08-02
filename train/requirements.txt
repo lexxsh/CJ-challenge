@@ -1,0 +1,13 @@
+# 학습 전용 (평가 Docker 와 무관 — 별도 환경)
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+opencv-python==4.10.0.84
+scikit-learn==1.5.2
+scipy==1.14.1
+onnx==1.17.0
+onnxruntime-gpu==1.20.1
+skl2onnx==1.17.0
+
+# 검출기(RF-DETR)는 별도 환경에서 학습
+#   rfdetr, torch==2.6.0+cu124

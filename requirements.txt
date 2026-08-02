@@ -1,0 +1,6 @@
+# 추론 전용 — 대회 평가 Docker(pytorch/pytorch:2.5.1-cuda12.1-cudnn9)에 사전 설치된 버전
+onnxruntime-gpu==1.20.1
+numpy==1.26.4
+opencv-python-headless==4.11.0.86
+scipy==1.14.1
+filterpy==1.4.5
